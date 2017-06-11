@@ -1,5 +1,101 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+header, .todos {
+  text-align: center
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.todosContainer {
+  width: 60%;
+  margin: auto;
+}
+
+.todo-row {
+  margin-top: 20px;
+  border-bottom: 1px solid #666;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.todo-pee {
+  display: inline;
+}
+
+span {
+  text-align: left;
+}
+
+.edit-btn {
+  float: left;
+}
+
+.editingButton {
+  float: right;
+  margin-top: 15px;
+  color: #666;
+}
+
+h2 {
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+}
+
+.incomplete h2{
+  border-bottom: 3px solid red;
+}
+
+h1, h2{
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: .06em;
+  font-size: 44px;
+}
+
+.title-name {
+  border-bottom: 1px solid #666;
+  padding-bottom: 25px;
+}
+
+.todo-title {
+  border-bottom: 1px solid #666;
+  text-align: center;
+}
+
+p {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 2em;
+  text-align: left;
+}
+
+.todoForm {
+  clear:both;
+  text-align: center;
+}
+
+span.deleteButton, span.toggleButton {
+  padding-left: 1em;
+}
+
+.deleteButton{
+  color: red;
+  float: right;
+  margin-top: 15px;
+}
+
+.create-button {
+  color: #fff;
+}
+
+.createForm {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin: auto;
+  width: 58%;
 }
